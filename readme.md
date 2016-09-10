@@ -1,0 +1,1 @@
+#Small JavaScript samples for IT Girls Web design course
