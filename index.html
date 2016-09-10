@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Examples</title>
+
+    <!-- Referenca za JavaScript -->
+    <script src="js/script.js"></script>
+
+    <!-- Referenca za CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Font za slova -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 class="naslov">IT Girls :: JavaScript Examples</h1>
+
+    <hr align="left" width="500px">
+
+
+    <h3 class="podnaslov">Kako sabrati dva broja koristeći JavaScript:</h3>
+
+    <div class="sabiranje">
+        <input type="number" id="prviBroj" class="unos">
+        <input type="number" id="drugiBroj" class="unos">
+        <input type="button" value="SABERI" id="saberiB" onclick="Saberi()">
+    </div>
+
+
+    <div class="datum">
+        <h3 class="podnaslov">Danas je koji datum?:</h3>
+        <input type="button" value="Prikazi datum" id="datumB" onclick="PokaziDatum()" />
+        <p class="podnaslov" id="datumText"></p>
+    </div>
+
+    <h3 class="podnaslov">Animacije pomoću JavaScript:</h3>
+
+    <input type="button" value="Pokreni animaciju" id="animacijaB" onclick="Animiraj()" />
+
+    <div>
+        <div id="myContainer">
+            <div id="myAnimation"></div>
+        </div>
+    </div>
+
+    <h2 id="promjeniBoju" class="podnaslov">Text koji promjeni boju</h2>
+    <input type="button" id="promjeniBojuTexta" onclick="document.getElementById('promjeniBoju').style.color = 'purple'" value="PROMJENI BOJU"></input>
+
+    <h2 id="nestani" class="podnaslov">Text koji nestaje (briše se)</h2>
+    <input type="button" id="izbrisiText" onclick="document.getElementById('nestani').style.display = 'none'" value="IZBRISI TEXT"></input>
+
+
+    <h4 class="podnaslov" style="margin-top: 30px">JavaScript examples by Almir Vuk</h3>
+
+</body>
+
+</html>

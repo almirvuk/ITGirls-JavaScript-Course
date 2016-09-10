@@ -1,0 +1,117 @@
+body{
+    
+    margin: auto;
+    width: 550px;
+    background-color: #1abc9c;
+}
+
+hr{
+    height: 2px;
+    background: #fff;
+    border: 0px;
+}
+
+.naslov{
+
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.podnaslov{
+
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.unos{
+
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#saberiB{
+
+    height: 35px;
+    width: 180px;
+    background: #e74c3c;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#datumB{
+
+    height: 35px;
+    width: 500px;
+    background:#8e44ad;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#animacijaB{
+
+    height: 35px;
+    width: 500px;
+    background:#3498db;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#promjeniBojuTexta{
+
+    height: 35px;
+    width: 180px;
+    background: #f39c12;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#izbrisiText{
+
+    height: 35px;
+    width: 180px;
+    background: #34495e;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:hover{
+    background:#ecf0f1;
+}
+
+.sabiranje{
+
+    margin-right:auto;
+    margin-left:auto;
+}
+
+
+#myContainer {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: #34495e;
+}
+
+#myAnimation {
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #ecf0f1;
+}
