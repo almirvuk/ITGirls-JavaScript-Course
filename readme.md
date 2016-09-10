@@ -1,1 +1,1 @@
-#Small JavaScript samples for IT Girls Web design course
+#Small JavaScript examples for IT Girls Web design course in Mostar
